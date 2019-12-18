@@ -1,1 +1,109 @@
-<mxfile host="www.draw.io" modified="2019-12-18T02:52:16.290Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36" version="12.4.3" etag="vcKi_cC9EYOp_jvry_Pe" type="github"><diagram id="nU8_Kjdr6IP4alDfhYj7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-18T03:14:00.459Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36" etag="oOoCk9WHlG3W17POPtet" version="12.4.3" type="github" pages="1">
+  <diagram id="nU8_Kjdr6IP4alDfhYj7" name="第 1 页">
+    <mxGraphModel dx="868" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-2" value="alarm_duty_person" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="360" y="82" width="160" height="102" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-3" value="预警_值班人员信息表" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-2">
+          <mxGeometry y="26" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-19" value="user_code" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-2">
+          <mxGeometry y="50" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-20" value="group_code" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-2">
+          <mxGeometry y="76" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-6" value="alarm_duty_task" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="100" y="408" width="160" height="98" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-44" value="预警_值班关联任务关系表" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-6">
+          <mxGeometry y="26" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-7" value="schedule_code" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-6">
+          <mxGeometry y="50" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-50" value="task_code" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-6">
+          <mxGeometry y="74" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-8" value="alarm_duty_schedule_dtl" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="160" height="98" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-9" value="预警_值班明细表" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-8">
+          <mxGeometry y="26" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-39" value="schedule_code" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-8">
+          <mxGeometry y="50" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-40" value="user_code" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-8">
+          <mxGeometry y="74" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-10" value="alarm_duty_groups" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="110" y="186" width="160" height="74" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-11" value="预警_组别信息表" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-10">
+          <mxGeometry y="26" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-29" value="group_code" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-10">
+          <mxGeometry y="50" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-12" value="alarm_duty_schedule" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="480" y="230" width="160" height="98" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-13" value="预警_业务_值班配置" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-12">
+          <mxGeometry y="26" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-36" value="schedule_code" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-12">
+          <mxGeometry y="50" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-43" value="group_code" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-12">
+          <mxGeometry y="74" width="160" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-14" value="alarm_person" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="630" y="20" width="160" height="78" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-15" value="预警_人员信息表" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-14">
+          <mxGeometry y="26" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-16" value="code" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-14">
+          <mxGeometry y="52" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-31" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP2F9lPvmP8_Afb9nCL_-29" target="XP2F9lPvmP8_Afb9nCL_-20">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="260" y="300" as="sourcePoint"/>
+            <mxPoint x="360" y="200" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP2F9lPvmP8_Afb9nCL_-29" target="XP2F9lPvmP8_Afb9nCL_-43">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP2F9lPvmP8_Afb9nCL_-19" target="XP2F9lPvmP8_Afb9nCL_-16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP2F9lPvmP8_Afb9nCL_-39" target="XP2F9lPvmP8_Afb9nCL_-36">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP2F9lPvmP8_Afb9nCL_-40" target="XP2F9lPvmP8_Afb9nCL_-16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP2F9lPvmP8_Afb9nCL_-7" target="XP2F9lPvmP8_Afb9nCL_-36">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-46" value="alarm_task" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="571" width="160" height="78" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-47" value="预警_任务表" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-46">
+          <mxGeometry y="26" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-48" value="code" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="XP2F9lPvmP8_Afb9nCL_-46">
+          <mxGeometry y="52" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="XP2F9lPvmP8_Afb9nCL_-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP2F9lPvmP8_Afb9nCL_-7" target="XP2F9lPvmP8_Afb9nCL_-48">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
